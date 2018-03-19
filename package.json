@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "draftail": "^0.17.0",
-    "prop-types": "^15.6.1"
+    "prop-types": "^15.6.1",
+    "sentiment": "^4.2.0"
   }
 }
