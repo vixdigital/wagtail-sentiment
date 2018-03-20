@@ -1,23 +1,24 @@
 import PropTypes from 'prop-types';
 import { ToolbarButton } from './lib';
+import sentiment from 'sentiment';
 
-const React = window.React;
+import React from 'react';
 const TOOLBAR_ICON = null;
 
 /*
  * A control that displays sentiment analysis results for entered text.
  */
-const ReadingLevel = ({ getEditorState }) => {
+const SentimentAnalysis = ({ getEditorState }) => {
     const editorState = getEditorState();
     const content = editorState.getCurrentContent();
     const text = content.getPlainText();
-    const stats = null;
+    const stats = sentiment(text);
     
     if(!stats) {
-        var message = ""
+        var message = "Sentiment Score: N/A";
     }
     else {
-        var message = "";
+        var message = "Sentiment Score: " + stats.score;
     }
 
     return (
@@ -27,6 +28,7 @@ const ReadingLevel = ({ getEditorState }) => {
             label={`${message}`}
             onClick={() => {
                 // on click functionality here
+                console.log(stats);
             }}
         />
     );
