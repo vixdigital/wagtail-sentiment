@@ -1,6 +1,6 @@
 {
   "name": "wagtail-sentiment",
-  "version": "0.1.0b",
+  "version": "1.0.0b",
   "description": "A plugin that adds sentiment analysis to rich text fields.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
