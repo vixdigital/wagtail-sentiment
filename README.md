@@ -7,8 +7,7 @@ A plugin for Wagtail draftail that applies sentiment analysis to text input into
 
 ## Installation
 - ```pip install wagtail-sentiment```
-
-## Usage
-Once installed add 'wagtailsentiment' to your list of installed apps AFTER all wagtail app includes (e.g. wagtail.admin, wagtail.core etc). 
+- Add 'wagtailsentiment' to your list of installed apps AFTER all wagtail app includes (e.g. wagtail.admin, wagtail.core etc). 
   
+## Usage  
 Once installed You will see the sentiment calculation displayed in the toolbar of all rich text fields in your Wagtail admin area.
