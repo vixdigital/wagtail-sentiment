@@ -25,7 +25,7 @@ const Icon = ({ icon, title, className }) => {
         <svg
             width="16"
             height="16"
-            viewBox="0 0 1024 1024"
+            viewBox="0 0 18 18"
             className={`Draftail-Icon ${className || ''}`}
             aria-hidden={title ? null : true}
             role={title ? 'img' : null}
