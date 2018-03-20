@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
   entry: './src/index.js',
   output: {
-    filename: 'bundle.js',
+    filename: 'wagtailsentiment.bundle.js',
     path: path.resolve(__dirname, 'wagtailsentiment/static')
   },
   module: {
