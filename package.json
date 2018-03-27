@@ -3,7 +3,7 @@
   "version": "1.0.0b",
   "description": "A plugin that adds sentiment analysis to rich text fields.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "build": "webpack"
   },
   "repository": {
@@ -18,11 +18,12 @@
   "homepage": "https://github.com/vixdigital/wagtail-sentiment#readme",
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.41",
-    "@babel/preset-react": "^7.0.0-beta.41",
     "@babel/preset-env": "^7.0.0-beta.41",
+    "@babel/preset-react": "^7.0.0-beta.41",
     "babel-core": "^7.0.0-beta.41",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
+    "jest": "^22.4.3",
     "webpack": "^4.1.1",
     "webpack-cli": "^2.0.12"
   },
