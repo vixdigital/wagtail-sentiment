@@ -1,5 +1,5 @@
-// Sentiment is a third part package, but we should test it to make sure
-//  the results are consistent through upgrades. 
+// Sentiment is a third party package, but we should test it to make sure
+//  the results stay consistent through updates. 
 // We can also test phrases/words that are particularly important to us to make
 //  sure that they are covered as expected in the dictionary.
 const sentiment = require('sentiment');
