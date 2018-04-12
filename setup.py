@@ -7,7 +7,7 @@ functionality to rich text editors.
 from setuptools import setup, find_packages
 
 setup(name='wagtail-sentiment',
-      version='1.0.0b',
+      version='1.1.0',
       description='Apply sentiment analysis to rich text content.',
       url='http://github.com/vixdigital/wagtail-sentiment',
       author='VIX Digital',
