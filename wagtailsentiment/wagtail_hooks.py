@@ -15,7 +15,7 @@ from wagtail.core import hooks
 @hooks.register('insert_editor_js')
 def editor_js():
     """ Adds additional JavaScript files or code snippets to the page editor. """
-    js_files = ['wagtailadmin/js/draftail.js','wagtailsentiment.bundle.js']
+    js_files = ['wagtailadmin/js/draftail.js','api-monkeypatch.js','wagtailsentiment.bundle.js']
     js_includes = format_html_join('\n', '<script src="{0}{1}"></script>',
         ((settings.STATIC_URL, filename) for filename in js_files)
     )
